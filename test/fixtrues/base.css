@@ -1,0 +1,15 @@
+@component container {
+  color: red;
+
+  @descendent child {
+    color: yellow
+  }
+
+  @modifier des {
+    color: gray;
+  }
+
+  @when state {
+    color: green;
+  }
+}

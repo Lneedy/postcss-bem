@@ -1,0 +1,36 @@
+{
+  "name": "@lneedy/postcss-bem",
+  "version": "0.0.1",
+  "description": "支持bem语法的postcss 7.0.0 插件",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "npm run build && npm run tape",
+    "build": "gulp build",
+    "tape": "gulp tape",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lneedy/postcss-bem.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "bem"
+  ],
+  "author": "lneedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lneedy/postcss-bem/issues"
+  },
+  "homepage": "https://github.com/lneedy/postcss-bem#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-tape": "^1.0.0",
+    "postcss": "^7.0.0"
+  }
+}
