@@ -12,6 +12,8 @@ If you want to use this tool,the first step is installing it through npm.
 npm i @lneedy/postcss-bem --save-dev
 ```
 
+[npm package](https://www.npmjs.com/package/@lneedy/postcss-bem)
+
 After installing it,this plugin can be used in multiple ways, such as webpack, gulp and so on, you could acquire the detail information at [how to use postcss](https://github.com/postcss/postcss)
 
 ## Example
