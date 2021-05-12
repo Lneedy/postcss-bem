@@ -31,6 +31,6 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
     "gulp-tape": "^1.0.0",
-    "postcss": "^7.0.0"
+    "postcss": "^8.2.10"
   }
 }
